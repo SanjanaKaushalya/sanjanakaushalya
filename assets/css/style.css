@@ -17,6 +17,28 @@
     --first-shadow-color: rgba(0, 0, 0, 0.1);
 
 }
+/*
+.darkmode{
+    --body-color: rgb(28, 24, 42);
+    --color-white: rgb(78, 76, 76);
+
+    --text-color-second: rgb(255, 255, 255);
+    --text-color-third: rgb(241, 241, 241);
+
+    --first-color: rgb(255, 255, 255);
+    --first-color-hover: rgb(40, 91, 212);
+
+    --second-color: rgb(0, 201, 255);
+    --third-color: rgb(192, 166, 49);
+    --first-shadow-color: rgba(255, 255, 255, 0.1);
+    .icon{
+        color: #efefef;
+    }
+*/
+    footer{
+        background: rgb(28, 24, 42);
+    }
+
 
 /* ----- BASE ----- */
 *{
@@ -237,9 +259,8 @@ nav{
     margin: auto 0;
     width: 380px;
     height: 380px;
-    border-radius: 55% 45% 55% 45%;
-    overflow: hidden;
-    animation: imgFloat 7s ease-in-out infinite;
+    
+    
 }
 .image img{
     width: 380px;
@@ -247,9 +268,9 @@ nav{
     object-fit: cover;
 }
 @keyframes imgFloat {
-    50%{
+    0%{
         transform: translateY(10px);
-        border-radius: 45% 55% 45% 55%;
+        
     }
 }
 .scroll-btn{
@@ -594,8 +615,9 @@ footer{
         margin-top: 65px;
     }
     .image, .image img{
-        width: 150px;
-        height: 150px;
+        width: 220px;
+        height: auto;
+        padding: 20px;
     }
     .row{
         display: flex;
@@ -636,3 +658,8 @@ footer{
         width: 100%;
     }
 }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
