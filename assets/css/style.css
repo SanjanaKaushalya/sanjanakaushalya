@@ -34,11 +34,11 @@
     .icon{
         color: #efefef;
     }
-*/
+
     footer{
         background: rgb(28, 24, 42);
     }
-
+} */
 
 /* ----- BASE ----- */
 *{
@@ -267,12 +267,8 @@ nav{
     height: 380px;
     object-fit: cover;
 }
-@keyframes imgFloat {
-    0%{
-        transform: translateY(10px);
-        
-    }
-}
+
+
 .scroll-btn{
    position: absolute;
    bottom: 0;
@@ -343,9 +339,9 @@ h3{
     border-radius: 20px;
 }
 .about-info p{
-    text-align: center;
-    font-size: 15px;
-    color: #777;
+    text-align: justify;
+    font-size: 14px;
+    color: #5a5858;
 }
 .about-btn button{
     position: absolute;
